@@ -33,4 +33,4 @@ ifelse(!dir.exists(file.path(hq_extracted_dir)),
        "HQ_extracted Directory Exists")
 
 saveRDS(tryData,'savedTestData.rds')
-
+saveRDS(tryData,paste0(data_dir,'savedTestData.rds'))
