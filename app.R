@@ -1,7 +1,7 @@
 # getwd()
 # setwd('/home/administrator/myShinyApps/tryScheduleRun/app.R')
-setwd('/srv/shiny-server/2024icbt/')
-# setwd('/home/administrator/myShinyApps/tryScheduleRun/')
+#setwd('/srv/shiny-server/2024icbt/')
+ setwd('/home/administrator/myShinyApps/2024icbt/')
 
 tryData <- data.frame(ID = c(1, 2, 3, 4, 5),
                   var1 = c('a', 'b', 'c', 'd', 'e'),
